@@ -40,37 +40,9 @@ function get() {
 }
 
 
-// function check(){
-//     if(Personal.innerHTML.valueOf("focus" == "")) {
-//         alert("Please Input Your Details")
-         
-//     }
-//     else{
-//         Personal.style.display = "none";
-//         education.style.display = "flex";   
-//     }
-// }
-
-// function checkval(){
-//     if(education.innerHTML.valueOf("focus" == "")) {
-//         alert("Please Input Your Details")
-//         // Personal.style.display = "none";
-//         // education.style.display= "flex";
-//         // health.style.display = "none"
-//     }
-//     else{
-//         Personal.style.display = "none";
-//         education.style.display= "none";
-//         health.style.display = "flex"
-//     }
-
-// }
-
-
-
 function check(){
     if(Personal.innerHTML.valueOf("focus" == "")) {
-        return false
+        alert("Please Input Your Details")
          
     }
     else{
@@ -93,3 +65,31 @@ function checkval(){
     }
 
 }
+
+
+
+// function check(){
+//     if(Personal.innerHTML.valueOf("focus" == "")) {
+//         return false
+         
+//     }
+//     else{
+//         Personal.style.display = "none";
+//         education.style.display = "flex";   
+//     }
+// }
+
+// function checkval(){
+//     if(education.innerHTML.valueOf("focus" == "")) {
+//         alert("Please Input Your Details")
+//         // Personal.style.display = "none";
+//         // education.style.display= "flex";
+//         // health.style.display = "none"
+//     }
+//     else{
+//         Personal.style.display = "none";
+//         education.style.display= "none";
+//         health.style.display = "flex"
+//     }
+
+// }
