@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div id="formDiv">
+            <section id="personalInfo" class="the">
+                <h2>Personal Info</h2>
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Last Name">
+                <input type="email" placeholder="Email">
+                <div>
+                    <input type="number" placeholder="Age">
+                    <span><input type="radio" name="gender" value="female"> Female</span>
+                    <span><input type="radio" name="gender" value="male"> Male</span>
+                </div>
+                <div>
+                    <button id="firstNextBtn" onclick="next()">Next</button>
+                </div>
+            </section>
+
+            <section id="educationalInfo" class="the">
+                <h2>Educational Info</h2>
+                <input type="text" placeholder="Mat No">
+                <input type="text" placeholder="Faculty">
+                <input type="text" placeholder="Department">
+                <input type="text" placeholder="Course of Study">
+                <input type="number" placeholder="Level">
+                <div>
+                    <button id="firstBackBtn" onclick="back()">Back</button>
+                    <button id="secondNextBtn" onclick="nextt()">Next</button>
+                </div>
+            </section>
+
+
+            <section id="healthInfo" class="the">
+                <h2>Health Info</h2>
+
+                <input type="text" placeholder="Genotype">
+                <input type="text" placeholder="Blood Group">
+                <input type="text" placeholder="Disablities, seperate with comma">
+                <div>
+                    <button id="secondBackBtn" onclick="backk()">Back</button>
+                    <button id="submit" onclick="get()">Submit</button>
+                </div>
+            </section>
+        </div  >
+    <script src="form.js"></script>
+</body>
+</html> 
